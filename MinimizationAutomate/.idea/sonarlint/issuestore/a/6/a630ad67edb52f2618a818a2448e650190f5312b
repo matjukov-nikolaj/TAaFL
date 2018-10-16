@@ -1,0 +1,38 @@
+
+Msquid:S1481$"*Remove this unused "milli" local variable.(¾Ýóýýÿÿÿÿ8ê‚÷¶ç,
+tsquid:UselessImportCheck"DRemove this unused import 'java.awt.image.AreaAveragingScaleFilter'.(þœÄÅùÿÿÿÿ8ê‚÷¶ç,
+\
+squid:S106Ú"9Replace this use of System.out or System.err by a logger.(©þêÜúÿÿÿÿ8ˆ¼•·ç,
+{squid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(´¢–½ýÿÿÿÿ8ê‚÷¶ç,
+Ksquid:S1481/"(Remove this unused "col" local variable.(ÿáç©þÿÿÿÿ8ê‚÷¶ç,
+bsquid:UselessImportCheck"8Remove this unused import 'com.taafl.model.AnotherCell'.(ÞšÓm8ê‚÷¶ç,
+nsquid:S00100»"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“•û¹8ˆ¼•·ç,
+isquid:CommentedOutCodeLineR"<This block of commented-out lines of code should be removed.(æ®Ñâ8ˆ¼•·ç,
+V
+squid:S106K"9Replace this use of System.out or System.err by a logger.(¯ ©Ê8ˆ¼•·ç,
+[
+squid:S106T"9Replace this use of System.out or System.err by a logger.(©þêÜúÿÿÿÿ8ˆ¼•·ç,
+vsquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(¬Ñšâ8ê‚÷¶ç,
+ssquid:UselessImportCheck"HRemove this unused import 'com.google.common.collect.ArrayListMultimap'.(–Êá¿8ê‚÷¶ç,
+ssquid:S1450"PRemove the "y" field and declare it as a local variable in the relevant methods.(ØåÅüÿÿÿÿ8ê‚÷¶ç,
+lsquid:UselessImportCheck"<Remove this unused import 'com.google.common.collect.Lists'.(ˆäóöøÿÿÿÿ8ê‚÷¶ç,
+{squid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(èó½ßüÿÿÿÿ8ê‚÷¶ç,
+Ksquid:S1481½",Remove this unused "counter" local variable.(™³ˆ²8¤ƒ Áç,
+jsquid:UselessImportCheck"?Remove this unused import 'com.google.common.collect.Multimap'.(Ž„úõ8ê‚÷¶ç,
+\
+squid:S106ä"9Replace this use of System.out or System.err by a logger.(©þêÜúÿÿÿÿ8ˆ¼•·ç,
+ksquid:S00116"LRename this field "Q" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î¦ïú8ê‚÷¶ç,
+esquid:UselessImportCheck";Remove this unused import 'com.google.common.collect.Sets'.(®™Ä8ê‚÷¶ç,
+_squid:UselessImportCheck	"4Remove this unused import 'com.taafl.model.EqClass'.(×—Ôü8ê‚÷¶ç,
+\squid:S1854%"9Remove this useless assignment to local variable "moore".(ò²† úÿÿÿÿ8ê‚÷¶ç,
+Hsquid:S1068"%Remove this unused "y" private field.(ØåÅüÿÿÿÿ8ê‚÷¶ç,
+vsquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(î¦ïú8ê‚÷¶ç,
+{squid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Û±¤€ùÿÿÿÿ8ê‚÷¶ç,
+Zsquid:S1854/"7Remove this useless assignment to local variable "col".(ÿáç©þÿÿÿÿ8ê‚÷¶ç,
+msquid:S00100†"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÍ·i8ˆ¼•·ç,
+nsquid:CommentedOutCodeLine."<This block of commented-out lines of code should be removed.(©£¬Þúÿÿÿÿ8ê‚÷¶ç,
+Msquid:S1481%"*Remove this unused "moore" local variable.(ò²† úÿÿÿÿ8ê‚÷¶ç,
+qsquid:UselessImportCheck"GRemove this unused import 'javax.persistence.criteria.CriteriaBuilder'.(É¿F8ê‚÷¶ç,
+{squid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ØåÅüÿÿÿÿ8ê‚÷¶ç,
+isquid:S30275"FPut single-quotes around ' ' to use the faster "indexOf(char)" method.(Ü¯›®úÿÿÿÿ8ê‚÷¶ç,
+\squid:S1854$"9Remove this useless assignment to local variable "milli".(¾Ýóýýÿÿÿÿ8ê‚÷¶ç,

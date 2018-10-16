@@ -1,0 +1,7 @@
+
+”squid:S1319
+"qThe type of the "vertex" object should be an interface such as "List" rather than the implementation "ArrayList".(Ð´ñÍÿÿÿÿÿ8ê‚÷¶ç,
+•squid:S1319
+"rThe type of the "eqClass" object should be an interface such as "List" rather than the implementation "ArrayList".(Ð´ñÍÿÿÿÿÿ8ê‚÷¶ç,
+Žsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÄàÔÞ8ê‚÷¶ç,
+Žsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(±†Æÿ8ê‚÷¶ç,
