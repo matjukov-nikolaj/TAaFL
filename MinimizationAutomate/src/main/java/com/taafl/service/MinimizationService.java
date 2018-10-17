@@ -82,8 +82,8 @@ public class MinimizationService {
             for (int j =0; j < x; ++j) {
                 Cell cell = col.get(j);
                 Cell oldCell = oldTable.get(i).get(j);
-                Integer nQ = cell.Q;
-                cell.Q = getEquivalenceClasses(nQ);
+                Integer newQ = cell.Q;
+                cell.Q = getEquivalenceClass(newQ);
                 cell.y = oldCell.y;
                 col.set(j, cell);
             }
@@ -111,14 +111,14 @@ public class MinimizationService {
     private void setEquivalenceClassesInTheColumn(ArrayList<Cell> column, Integer i) {
         for (int j =0; j < x; ++j) {
             Cell cell = column.get(j);
-            Integer nq = cell.Q;
-            cell.y = getEquivalenceClasses(nq);
+            Integer newQ = cell.Q;
+            cell.y = getEquivalenceClass(newQ);
             column.set(j, cell);
         }
         this.conversionTable.set(i, column);
     }
 
-    private Integer getEquivalenceClasses(Integer newQ) {
+    private Integer getEquivalenceClass(Integer newQ) {
         for (int i =0; i < this.equivalenceClasses.size(); ++i) {
             ArrayList<Integer> col = this.equivalenceClasses.get(i);
             for (int j = 0; j < col.size(); ++j) {

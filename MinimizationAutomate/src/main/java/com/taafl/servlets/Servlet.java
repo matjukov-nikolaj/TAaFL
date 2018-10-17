@@ -2,6 +2,7 @@ package com.taafl.servlets;
 
 import com.taafl.model.Cell;
 import com.taafl.service.MinimizationService;
+import com.taafl.vizualization.Vizualizer;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -9,11 +10,11 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
+import java.io.*;
 import java.util.*;
 
-@WebServlet("/s")
-public class MyServlet extends HttpServlet {
+@WebServlet("")
+public class Servlet extends HttpServlet {
 
     private Integer Q = 0;
     private Integer x = 0;
@@ -75,6 +76,13 @@ public class MyServlet extends HttpServlet {
         return conversionTable;
     }
 
+    private void vizualizateAutomat(ArrayList<ArrayList<Cell>> service) {
+        Vizualizer vizualizer = new Vizualizer(service);
+        vizualizer.vizualizateGraph();
+        vizualizer.createDotFile();
+        vizualizer.convertDotFileToPNG();
+    }
+
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         try {
@@ -84,15 +92,20 @@ public class MyServlet extends HttpServlet {
                 ArrayList<ArrayList<Cell>> conversionTable = this.getMillyTableFromForm(request);
                 MinimizationService millyService = new MinimizationService(conversionTable, this.Q, this.x);
                 millyService.handleMinimization();
-                request.setAttribute("result", millyService.getResultMinimization());
+                ArrayList<ArrayList<Cell>> result = millyService.getResultMinimization();
+                this.vizualizateAutomat(result);
+                request.setAttribute("result", result);
                 request.setAttribute("Q", Q);
                 request.setAttribute("x", x);
                 forwardDispatcher(request, response, "/resultMilly.jsp");
+
             } else if (request.getParameter("murTable") != null) {
                 ArrayList<ArrayList<Cell>> conversionTable = this.getMurTableFromForm(request);
                 MinimizationService murService = new MinimizationService(conversionTable, this.Q, this.x);
                 murService.handleMinimization();
-                request.setAttribute("result", murService.getResultMinimization());
+                ArrayList<ArrayList<Cell>> result = murService.getResultMinimization();
+                this.vizualizateAutomat(result);
+                request.setAttribute("result", result);
                 request.setAttribute("Q", Q);
                 request.setAttribute("x", x);
                 forwardDispatcher(request, response, "/resultMur.jsp");

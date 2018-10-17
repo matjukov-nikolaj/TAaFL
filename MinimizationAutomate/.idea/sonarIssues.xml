@@ -8,6 +8,16 @@
             <set />
           </value>
         </entry>
+        <entry key="D:/MinimizationAutomate/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/MinimizationAutomate/src/main/java/com/taafl/model/Cell.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/.idea/.name">
           <value>
             <set />
@@ -33,7 +43,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/taafl/model/Constants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/com/taafl/model/EqClass.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/taafl/model/Graph.java">
           <value>
             <set />
           </value>
@@ -63,7 +83,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/taafl/servlets/Servlet.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/taafl/vizualization/Graph.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/taafl/vizualization/Vizualizator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/taafl/vizualization/Vizualizer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/millyTable.jsp">
           <value>
             <set />
           </value>
@@ -98,7 +143,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/webapp/tableStyles.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="D:/code-quality/lw05/src/main/webapp/index.jsp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/code-quality/lw07/src/main/java/com/codequality/lks/volgatech/utilites/Constants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/code-quality/lw07/src/test/java/com/codequality/lks/volgatech/pages/LoginPageTests.java">
           <value>
             <set />
           </value>

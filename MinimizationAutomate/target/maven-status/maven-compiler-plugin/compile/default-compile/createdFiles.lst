@@ -1,3 +1,5 @@
+com\taafl\vizualization\Vizualizer.class
+com\taafl\model\Graph.class
 com\taafl\model\Cell.class
-com\taafl\servlets\MyServlet.class
+com\taafl\servlets\Servlet.class
 com\taafl\service\MinimizationService.class
