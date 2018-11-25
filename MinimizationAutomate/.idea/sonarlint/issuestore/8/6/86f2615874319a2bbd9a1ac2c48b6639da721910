@@ -1,0 +1,26 @@
+
+wsquid:S2293>"YReplace the type specification in this constructor call with the diamond operator ("<>").(¦Å¤ä8ûÂÜè,
+vsquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ØİÓã8ªÌİºò,
+{squid:S1450"]Remove the "minimization_y" field and declare it as a local variable in the relevant methods.(¸şõ›8Óø‚ºò,
+\
+squid:S106Á"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8­‹½ò,
+\
+squid:S106Ë"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8­‹½ò,
+vsquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(¸şõ›8ûÂÜè,
+|squid:S2293,"YReplace the type specification in this constructor call with the diamond operator ("<>").(€ê“ˆúÿÿÿÿ8ûÂÜè,
+}squid:S00116"YRename this field "minimization_x" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëË·Úıÿÿÿÿ8Ñòºò,
+wsquid:S2293."YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆÉÃİ8ûÂÜè,
+wsquid:S2293A"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆÉÃİ8ûÂÜè,
+Psquid:S1068"2Remove this unused "minimization_y" private field.(¸şõ›8Ñòºò,
+isquid:S30272"FPut single-quotes around ' ' to use the faster "indexOf(char)" method.(Ü¯›®úÿÿÿÿ8ûÂÜè,
+vsquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(³ÙÂÌ8Ç‡İºò,
+{squid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ñƒ£şÿÿÿÿ8ûÂÜè,
+{squid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ëË·Úıÿÿÿÿ8ûÂÜè,
+usquid:S00116"VRename this field "determine_k" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ÿù’8ÕŒŞºò,
+xsquid:S00116"YRename this field "minimization_y" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸şõ›8Ñòºò,
+usquid:S00116"VRename this field "determine_z" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØİÓã8ªÌİºò,
+\
+squid:S106¸"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8­‹½ò,
+usquid:S00116"VRename this field "determine_x" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ÙÂÌ8Ç‡İºò,
+}squid:S00116"YRename this field "minimization_Q" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñƒ£şÿÿÿÿ8àšºò,
+vsquid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(§ÿù’8ÕŒŞºò,

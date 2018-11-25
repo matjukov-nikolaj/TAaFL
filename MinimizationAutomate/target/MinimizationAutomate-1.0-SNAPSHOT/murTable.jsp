@@ -9,6 +9,27 @@
 </form>
 <form id="form" method="post">
     <input type="hidden" name="murTable">
+    <%!
+        public void printCells(Integer i, Integer j, JspWriter out) {
+            try {
+                if (i == 0 && j == 0) {
+                    out.print("<td><p>y</p></td>");
+                    return;
+                }
+                if (i > 0 && j == 0) {
+                    out.print("<td><p>x" + (i - 1) + "</p></td>");
+                } else if (i == 0) {
+                    String name = "y" + (j - 1);
+                    out.print("<td><input type=text name=\"" + name + "\" + " + "style=\"width: 40px;\"></td>");
+                } else {
+                    String name = "Q" + (j - 1) + "x" + (i - 1);
+                    out.print("<td><input type=text name=\"" + name + "\" + " + "style=\"width: 40px;\"></td>");
+                }
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+        }
+    %>
     <%
         Integer Q = (Integer) request.getAttribute("Q");
         Integer x = (Integer) request.getAttribute("x");
@@ -16,21 +37,7 @@
         for (int i = 0; i <= x; ++i) {
             out.print("<tr>");
             for (int j = 0; j <= Q; ++j) {
-                if (i == 0 && j == 0) {
-                    out.print("<td><p>y</p></td>");
-                    continue;
-                }
-                if (i > 0 && j == 0) {
-                    out.print("<td><p>x"  + (i - 1) +  "</p></td>");
-                } else {
-                    if (i == 0) {
-                        String name = "y" + (j - 1);
-                        out.print("<td><input type=text name=\"" + name + "\" + " + "style=\"width: 40px;\"></td>");
-                    } else {
-                        String name = "Q" + (j - 1) + "x" + (i - 1);
-                        out.print("<td><input type=text name=\"" + name + "\" + " + "style=\"width: 40px;\"></td>");
-                    }
-                }
+                printCells(i, j, out);
             }
             out.print("</tr>");
         }

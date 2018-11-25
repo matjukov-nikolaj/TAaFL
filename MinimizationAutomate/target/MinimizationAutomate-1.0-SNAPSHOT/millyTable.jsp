@@ -9,16 +9,12 @@
 </form>
 <form id="form" method="post">
     <input type="hidden" name="millyTable">
-    <%
-        Integer Q = (Integer) request.getAttribute("Q");
-        Integer x = (Integer) request.getAttribute("x");
-        out.print("<table>");
-        for (int i = 0; i <= x; ++i) {
-            out.print("<tr>");
-            for (int j = 0; j <= Q; ++j) {
+    <%!
+        public void printCells(Integer i, Integer j, JspWriter out) {
+            try {
                 if (i == 0 && j == 0) {
                     out.print("<td><p> </p></td>");
-                    continue;
+                    return;
                 }
                 if (i == 0) {
                     out.print("<td><p>Q" + (j - 1) + "</p></td>");
@@ -28,6 +24,19 @@
                     String name = "Q" + (j - 1) + "x" + (i - 1);
                     out.print("<td><input type=text name=\"" + name + "\" + " + "style=\"width: 40px;\"></td>");
                 }
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+        }
+    %>
+    <%
+        Integer Q = (Integer) request.getAttribute("Q");
+        Integer x = (Integer) request.getAttribute("x");
+        out.print("<table>");
+        for (int i = 0; i <= x; ++i) {
+            out.print("<tr>");
+            for (int j = 0; j <= Q; ++j) {
+                printCells(i, j , out);
             }
             out.print("</tr>");
         }

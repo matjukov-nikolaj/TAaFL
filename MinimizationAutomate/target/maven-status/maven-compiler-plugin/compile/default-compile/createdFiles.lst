@@ -1,3 +1,4 @@
+com\taafl\model\Constants.class
 com\taafl\vizualization\Vizualizer.class
 com\taafl\model\Graph.class
 com\taafl\model\Cell.class

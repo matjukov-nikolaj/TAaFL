@@ -1,0 +1,16 @@
+
+v
+squid:S135I"YReduce the total number of break and continue statements in this loop to use at most one.(ÕáÁ8ş±æ…ó,
+Bsquid:S1068"%Remove this unused "z" private field.(óÏôv8Á¬ÍÂò,
+csquid:HiddenFieldChecku"5Rename "k" which hides the field declared at line 12.(ÏØÚşÿÿÿÿ8ş±æ…ó,
+Hsquid:S1068"%Remove this unused "k" private field.(²«åİûÿÿÿÿ8„é¢Äò,
+™squid:S1319"vThe type of the "finalStates" object should be an interface such as "List" rather than the implementation "ArrayList".(öƒƒ­úÿÿÿÿ8Ä¶²Äò,
+squid:S1319"zThe type of the "conversionTable" object should be an interface such as "List" rather than the implementation "ArrayList".(öƒƒ­úÿÿÿÿ8ôñ²Äò,
+tsquid:UselessImportCheck"DRemove this unused import 'java.awt.image.AreaAveragingScaleFilter'.(şœÄÅùÿÿÿÿ8ş±æ…ó,
+Csquid:S1068"%Remove this unused "x" private field.(£©«•8ş±æ…ó,
+psquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 59 to the 15 allowed.(¥«Äº8£ø„Äò,
+|squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ùç·’üÿÿÿÿ8ş±æ…ó,
+Rsquid:S1068	"/Remove this unused "finalStates" private field.(Ì‘½øıÿÿÿÿ8Á¬ÍÂò,
+v
+squid:S135)"YReduce the total number of break and continue statements in this loop to use at most one.(ÕáÁ8ş±æ…ó,
+csquid:HiddenFieldCheckl"5Rename "k" which hides the field declared at line 12.(ãÔ¢Åşÿÿÿÿ8ş±æ…ó,

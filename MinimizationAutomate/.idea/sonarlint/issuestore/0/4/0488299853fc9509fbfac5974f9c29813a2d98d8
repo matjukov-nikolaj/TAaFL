@@ -1,0 +1,10 @@
+
+[
+squid:S106:"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8Éè,
+”squid:S1319"qThe type of the "result" object should be an interface such as "List" rather than the implementation "ArrayList".(Ö‰ûÜúÿÿÿÿ8Éè,
+[
+squid:S106,"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8Éè,
+[
+squid:S1068"9Replace this use of System.out or System.err by a logger.(Úè€¾øÿÿÿÿ8Éè,
+[
+squid:S1062"9Replace this use of System.out or System.err by a logger.(ÒÁ™ïùÿÿÿÿ8Éè,

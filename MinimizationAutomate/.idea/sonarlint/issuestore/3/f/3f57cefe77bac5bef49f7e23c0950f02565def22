@@ -1,0 +1,5 @@
+
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸŒ£·ÿÿÿÿÿ
+dsquid:S00116"LRename this field "Q" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î¦ïú
+–squid:S1319"zThe type of the "conversionTable" object should be an interface such as "List" rather than the implementation "ArrayList".(ŸŒ£·ÿÿÿÿÿ
+‡squid:S1319 "pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(þî¦Ž

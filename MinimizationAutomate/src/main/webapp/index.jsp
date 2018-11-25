@@ -4,24 +4,14 @@
     <title></title>
 </head>
 <body>
-<p>Please fill all fields</p>
+<p>Choose what you want to do.</p>
 <form id="form" method="post" name="Values">
-    <input type="hidden" name="valuesForm">
-    <input type="checkbox" name="Milly" value="Milly">Milly
+    <input type="hidden" name="selectForm">
+    <input type="checkbox" name="Determine" value="Determine">Determine
     <p></p>
-    <input type="checkbox" name="Mur" value="Mur">Mur
-    <p></p>
-    Q:
-    <input type="text" name="Q" value="">
-    <p></p>
-    x:
-    <input type="text" name="x" value="">
-    <p></p>
-    y:
-    <input type="text" name="y" value="">
+    <input type="checkbox" name="Minimize" value="Minimize">Minimize
     <p></p>
     <input type="submit" value="Submit">
-
 </form>
 </body>
 </html>
