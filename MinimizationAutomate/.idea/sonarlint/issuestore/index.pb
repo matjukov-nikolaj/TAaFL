@@ -35,3 +35,5 @@ X
 (src/main/java/com/taafl/model/DCell.java,e\1\e1a68516b1ee33bed6c6da5974c05028372f164d
 i
 9src/main/java/com/taafl/service/DeterminationService.java,8\6\86a06c692753f56ab17afd78da8226cc0a1f36b0
+W
+'src/main/webapp/resultDetermination.jsp,9\4\94f0d78c2e20dcbadcf795d97384f0ab89bf478b

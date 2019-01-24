@@ -1,0 +1,18 @@
+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ùàèü8äãÊö,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8äãÊö,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ûï«‚8äãÊö,
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(ïê™V8äãÊö,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(×•œ²8äãÊö,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8äãÊö,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ú©ı¯8äãÊö,
+¤%squid:RedundantThrowsDeclarationCheck"nRemove the declaration of thrown exception 'java.lang.IndexOutOfBoundsException' which is a runtime exception.(×¯×¥8äãÊö,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(æàÃúÿÿÿÿ8äãÊö,

@@ -1,0 +1,14 @@
+
+{
+squid:S135!"YReduce the total number of break and continue statements in this loop to use at most one.(µ’Òÿıÿÿÿÿ8İ·Ëö,
+¦%squid:RedundantThrowsDeclarationCheck¾"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(´¬®8İ·Ëö,
+ª%squid:RedundantThrowsDeclarationCheck"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(µØ®¶üÿÿÿÿ8İ·Ëö,
+¥%squid:RedundantThrowsDeclarationCheckm"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(Öï« 8İ·Ëö,
+«%squid:RedundantThrowsDeclarationCheckA"nRemove the declaration of thrown exception 'java.lang.IndexOutOfBoundsException' which is a runtime exception.(èû“ûÿÿÿÿ8İ·Ëö,
+«%squid:RedundantThrowsDeclarationCheck©"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(„ÕË‘ùÿÿÿÿ8İ·Ëö,
+«%squid:RedundantThrowsDeclarationCheck"nRemove the declaration of thrown exception 'java.lang.IndexOutOfBoundsException' which is a runtime exception.(µØ®¶üÿÿÿÿ8İ·Ëö,
+ª%squid:RedundantThrowsDeclarationCheckc"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(¾ßÕÁıÿÿÿÿ8İ·Ëö,
+ª%squid:RedundantThrowsDeclarationCheckA"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(èû“ûÿÿÿÿ8İ·Ëö,
+nsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÁşÎ8İ·Ëö,
+tsquid:S1192_"VDefine a constant instead of duplicating this literal "Error in the formula." 5 times.(‰ó¤š8İ·Ëö,
+¥%squid:RedundantThrowsDeclarationCheckV"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(Ú°°8İ·Ëö,

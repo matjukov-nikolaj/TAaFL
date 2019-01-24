@@ -58,7 +58,7 @@ public class DeterminationService {
 
         for (List<Integer> key: keySet) {
             for (Integer value: this.finalStates) {
-                if(key.contains(value)) {
+                if(key.contains(value) && !this.newFinalStates.contains(key)) {
                     this.newFinalStates.add(key);
                 }
             }
