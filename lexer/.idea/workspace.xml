@@ -81,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/taafl/Lexer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="269" column="42" lean-forward="true" selection-start-line="269" selection-start-column="42" selection-end-line="269" selection-end-column="42" />
+              <caret line="269" column="42" selection-start-line="269" selection-start-column="42" selection-end-line="269" selection-end-column="42" />
               <folding>
                 <element signature="method#fillTable#0;class#Lexer#0" />
                 <element signature="method#fillCharById#0;class#Lexer#0" />
@@ -95,8 +95,8 @@
       <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/taafl/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,7 +149,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/utils/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/javacourse2018/lw03/controller/SpreadsheetControllerImpl.java" />
         <option value="$PROJECT_DIR$/.idea/.name" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/taafl/lw03/service/SpreadsheetEngineTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/taafl/service/SpreadsheetEngineTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
@@ -157,6 +156,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/file.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/taafl/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/taafl/Lexer.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -207,7 +207,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1913" />
     <option name="y" value="140" />
     <option name="width" value="974" />
@@ -263,6 +263,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lexer" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -484,7 +489,7 @@
       <workItem from="1544036506192" duration="1375000" />
       <workItem from="1544262425323" duration="1195000" />
       <workItem from="1546510772366" duration="627000" />
-      <workItem from="1548315209415" duration="10713000" />
+      <workItem from="1548315209415" duration="10960000" />
     </task>
     <servers />
   </component>
@@ -521,7 +526,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83086000" />
+    <option name="totallyTimeSpent" value="83333000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="132" width="1936" height="1056" extended-state="6" />
@@ -545,10 +550,10 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36958817" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36958817" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.28299895" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.67304623" visible="true" weight="0.19375" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.28299895" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.67304623" visible="true" weight="0.19375" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="8" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3284055" />
@@ -914,13 +919,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/.name">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -952,7 +950,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/taafl/Lexer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="269" column="42" lean-forward="true" selection-start-line="269" selection-start-column="42" selection-end-line="269" selection-end-column="42" />
+          <caret line="269" column="42" selection-start-line="269" selection-start-column="42" selection-end-line="269" selection-end-column="42" />
           <folding>
             <element signature="method#fillTable#0;class#Lexer#0" />
             <element signature="method#fillCharById#0;class#Lexer#0" />
@@ -969,10 +967,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="58" column="34" lean-forward="true" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/taafl/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

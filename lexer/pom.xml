@@ -59,7 +59,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>App</mainClass>
+                            <mainClass>com.taafl.App</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
