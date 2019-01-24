@@ -1,17 +1,34 @@
 package com.taafl;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
 public class App
 {
+    private static final String FILE_PATH = "\\src\\main\\resources\\file.txt";
+
     public static void main( String[] args )
     {
-        try {
-            String test = "123 a1 1a 0x64f ";
-            Lexer lexer = new Lexer();
-            for (Character ch : test.toCharArray()) {
-                lexer.goToState(ch);
+        Path currentRelativePath = Paths.get("");
+        String projectPath = currentRelativePath.toAbsolutePath().toString();
+        String filePath = projectPath + FILE_PATH;
+        String strToHandle = "";
+
+        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
+
+            String st;
+            while ((st = br.readLine()) != null) {
+                strToHandle += st + "\n";
             }
-        } catch (Exception ex) {
-            System.out.println(ex.getMessage());
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+
+        Lexer lexer = new Lexer();
+        for (Character ch : strToHandle.toCharArray()) {
+            lexer.goToState(ch);
         }
     }
 }
