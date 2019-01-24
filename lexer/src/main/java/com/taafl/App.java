@@ -27,7 +27,7 @@ public class App
         }
 
         Lexer lexer = new Lexer();
-        for (Character ch : strToHandle.toCharArray()) {
+        for (Character ch : strToHandle.toLowerCase().toCharArray()) {
             lexer.goToState(ch);
         }
     }
