@@ -1,0 +1,7 @@
+var
+    int : a , b , c ;
+    char : key , input ;
+
+
+
+
